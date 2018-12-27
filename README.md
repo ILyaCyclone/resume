@@ -14,6 +14,7 @@ Skype: ilya.cyclone
 - Oracle Application Development Framework
 - Servlets/JSP, Freemarker
 - SOAP/Rest Web services
+- Java 8 (streams, lambdas, time api)
 - основы Microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - основы Hibernate, Spring Data JPA, Bean Valdation
 - unit testing (JUnit, Hamcrest etc - в процессе освоения)
