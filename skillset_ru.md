@@ -4,8 +4,8 @@
 - Oracle Application Development Framework
 - Servlets/JSP, Freemarker
 - SOAP/Rest Web services
-- basics of Microservices (Spring Cloud, Eureka, Config Server, Hystrix)
-- basics of Hibernate, Spring Data JPA, Bean Valdation
+- основы Microservices (Spring Cloud, Eureka, Config Server, Hystrix)
+- основы Hibernate, Spring Data JPA, Bean Valdation
 - unit testing (JUnit, Hamcrest etc - в процессе освоения)
 
 # Базы данных
@@ -17,7 +17,7 @@
 - Tomcat, WebLogic, Glassfish, другие (установка, базовое администрирование)
 
 # Инструменты разработчика
-- Maven, Nexus OSS (installation, configuration)
+- Maven, Nexus OSS (установка, конфигурация)
 - Git, Git Flow
 
 # Frontend (вторичные навыки)
