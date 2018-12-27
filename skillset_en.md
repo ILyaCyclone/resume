@@ -11,6 +11,7 @@
 # Databases
 - Oracle, H2, PostgreSQL, MSSQL Server (usage)
 - SQL, PL/SQL
+- ERwin Data Modeler, Sybase PowerDesigner (CASE)
 
 # Application servers
 - Tomcat, WebLogic, Glassfish etc (installation, basic administration)
@@ -26,7 +27,7 @@
 - Adaptive design (mobile first) 
 
 # Other tools
-- BIRT, iText (reporting)
+- BIRT, iText, Apache POI (reporting)
 - Google Script (Google Spreadsheet scripts)
 - memcached
 - nginx

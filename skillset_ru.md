@@ -11,6 +11,7 @@
 # Базы данных
 - Oracle, H2, PostgreSQL, MSSQL Server (использование)
 - SQL, PL/SQL
+- ERwin Data Modeler, Sybase PowerDesigner (CASE-средства)
 
 # Серверы приложений
 - Tomcat, WebLogic, Glassfish, другие (установка, базовое администрирование)
@@ -26,7 +27,7 @@
 - Adaptive design (mobile first) 
 
 # Другие инструменты
-- BIRT, iText (reporting)
+- BIRT, iText, Apache POI (reporting)
 - Google Script (Google Spreadsheet scripts)
 - memcached
 - nginx
