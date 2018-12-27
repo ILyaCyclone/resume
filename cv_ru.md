@@ -38,8 +38,8 @@ Email: ilya.cyclone@gmail.com
 ## Другие инструменты
 - BIRT, iText, Apache POI (reporting)
 - Google Script (Google Spreadsheet scripts)
-- memcached
-- nginx
+- Chrome Dev Tools
+- memcached, nginx
 
 ## IDE
 - IntelliJ IDEA
