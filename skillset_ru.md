@@ -23,7 +23,7 @@
 # Frontend (вторичные навыки)
 - npm, gulp, bower, основы webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, MomentJS, datatables, другие плагины
+- Javascript, jQuery, MomentJS, datatables, vis.js, другие плагины
 - Adaptive design (mobile first) 
 
 # Другие инструменты
