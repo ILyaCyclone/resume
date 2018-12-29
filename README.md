@@ -2,22 +2,34 @@
 ## Java-разработчик
 Email: ilya.cyclone@gmail.com  
 Skype: ilya.cyclone  
+Telegram: ILyaCyclone  
 Город: Москва  
 Год рождения: 1988  
-Заинтересован в удалённой / проектной работе.
+
+Заинтересован в проектной / удалённой работе.
 
 # Навыки
 
 ## Java
 - Spring Framework (MVC, JDBC, Security, LDAP)
 - Spring Boot
-- Oracle Application Development Framework
+- Oracle Application Development Framework (Oracle ADF)
 - Servlets/JSP, Freemarker
 - SOAP/Rest Web services
 - Java 8 (streams, lambdas, time api)
 - основы Microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - основы Hibernate, Spring Data JPA, Bean Valdation
-- unit testing (JUnit, Hamcrest etc - в процессе освоения)
+- основы unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)
+
+## Frontend (вторичные навыки)
+- npm, gulp, bower, основы webpack
+- Bootstrap, CSS, SASS (Scss)
+- Javascript, jQuery, MomentJS, vis.js, datatables, другие плагины
+- Adaptive design (mobile first)
+
+## Инструменты разработчика
+- Maven, Nexus OSS (установка, конфигурация)
+- Git, Git Flow
 
 ## Базы данных
 - Oracle, H2, PostgreSQL, MSSQL Server (использование)
@@ -26,16 +38,6 @@ Skype: ilya.cyclone
 
 ## Серверы приложений
 - Tomcat, WebLogic, Glassfish, другие (установка, базовое администрирование)
-
-## Инструменты разработчика
-- Maven, Nexus OSS (установка, конфигурация)
-- Git, Git Flow
-
-## Frontend (вторичные навыки)
-- npm, gulp, bower, основы webpack
-- Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, MomentJS, datatables, другие плагины
-- Adaptive design (mobile first) 
 
 ## Другие инструменты
 - BIRT, iText, Apache POI (reporting)
@@ -49,16 +51,8 @@ Skype: ilya.cyclone
 - Oracle JDeveloper
 - VS Code
 
-## Обязанности
-- Разработка ПО (в основном Java, частично frontend)
-- Менторство, code review (junior-разработчики, студенты)
-- Документирование, ведение корпоративной Wiki
-
 ## Ближайшие интересы
-- Jenkins
-- Android
-- Docker
-- ReactJS
+- Android, Jenkins, Docker, ReactJS
 
 ## Иностранные языки
 - Английский (на хорошем уровне)
@@ -75,12 +69,13 @@ https://rut-miit.ru
 - Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами.
 - Разработка АСУ Федерального агентства железнодорожного транспорта (система сбора статистики и мониторинга отчётности вузов).
 - Разработка множества систем и приложений поддержания деятельности университета: система управления контентом сайта университета, метрика хода приёмной кампании, система проведения студенческих олимпиад, регистрация на сайте и подача документов через Интернет, интеграция отчётных инструментов, автоматизация RSS, Sitemap, web-сервисы взаимодействия с внешними системами.
-- Менторство junior-разработчиков и студентов.
+- Менторство, code-review junior-разработчиков и студентов.
+- Документирование решений, ведение корпоративной Wiki.
 
 _2016 - 2018 (удалённая работа)_  
 **Chanel**  
 https://www.chanel.com/ru_RU/  
-Разработка приложений мониторинга торговых точек, организации встреч, ведения корпоративных фото-конкурсов (Spring Framework, Bootstrap, Tomcat, MSSQL Server, интеграция с Active Directory и IBM Lotus).
+Разработка приложений мониторинга торговых точек, организации встреч, ведения корпоративных фото-конкурсов, журнал учёта рабочего времени (Spring Framework, Bootstrap, Tomcat, MSSQL Server, интеграция с Active Directory и IBM Lotus).
 
 
 _2013 (проектная работа)_  
@@ -107,3 +102,13 @@ https://miit.ru
 - Начальник разработки геоинформационной информационной системы (ГИС) для Федерального агентства ж/д транспорта (Servlets/JSP, ExtJS (Sencha), SQL, SOAP, SVN, MySQL) - студенческая деловая игра.
 - Разработка web-системы поддержки проведения дистанционного обучения, расширяемой сервисной системы интеграции дополнительных модулей (Servlets/JSP, Hibernate, SQL, jQuery, SOAP, PostgreSQL).
 - Разработка web-системы автоматизированной проверки выполнения студенческих практических работ в среде IBM z/OS (Servlets/JSP, JDBC, SQL, JavaScript, FTP, Oracle).
+
+# Образование
+
+_2010 - 2012_  
+**Московский государственный университет путей сообщения (МИИТ)**  
+Вычислительные системы и сети, магистратура, магистр техники и технологии (красный диплом)
+
+_2005 - 2010_  
+**Московский государственный университет путей сообщения (МИИТ)**  
+Автоматизированные системы управления, специалитет, инженер (красный диплом)
