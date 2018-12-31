@@ -1,6 +1,6 @@
 const fs = require("fs");
-const i18n = require("./src/i18n");
-const md = require("./src/markdown");
+const i18n = require("./i18n");
+const md = require("./markdown");
 
 const sourceFileName = "resume.json";
 
@@ -66,7 +66,7 @@ json.localization.forEach((loc) => {
                 accum.push(md.italic(exp.period + (exp.type ? ` (${exp.type})` : "")));
                 accum.push(md.bold(exp.company));
                 if(exp.url) {
-                    accum.push(exp.url);
+                    accum.push(md.link(exp.url));
                 }
                 if(exp.description) {
                     accum.push(exp.description);
@@ -106,7 +106,7 @@ json.localization.forEach((loc) => {
     fs.writeFile(resumeFileName, resumeContent, function (err) {
         if (err) throw err;
         console.log(resumeFileName + " saved.");
-        if(locale == DEFAULT_LOCALE) {
+        if(locale === DEFAULT_LOCALE) {
             fs.copyFile(resumeFileName, "README.md", (err) => {
                 if (err) throw err;
                 console.log("README.md created.");

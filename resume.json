@@ -49,7 +49,7 @@
                         "details": [
                             "npm, gulp, bower, основы webpack",
                             "Bootstrap, CSS, SASS (Scss)",
-                            "Javascript, jQuery, MomentJS, vis.js, datatables, другие плагины",
+                            "Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables, другие плагины",
                             "Adaptive design (mobile first)"                    
                         ]
                     },
@@ -149,6 +149,7 @@
                         "period": "2007 - 2009",
                         "company": "Московский государственный университет путей сообщения",
                         "url": "https://miit.ru",
+                        "description": "Разработка приложений сопровождения дистанционного обучения и проектов кафедры.",
                         "details": [
                             "Начальник отдела разработки геоинформационной информационной системы (ГИС) для Федерального агентства ж/д транспорта (Servlets/JSP, ExtJS (Sencha), SQL, SOAP, SVN, MySQL) - студенческая деловая игра.",
                             "Разработка web-системы поддержки проведения дистанционного обучения, расширяемой сервисной системы интеграции дополнительных модулей (Servlets/JSP, Hibernate, SQL, jQuery, SOAP, PostgreSQL).",
@@ -202,7 +203,7 @@
                         "details": [
                             "npm, gulp, bower, basics of webpack",
                             "Bootstrap, CSS, SASS (Scss)",
-                            "Javascript, jQuery, MomentJS, vis.js, datatables etc",
+                            "Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables etc",
                             "Adaptive design (mobile first)"                    
                         ]
                     },
@@ -239,17 +240,13 @@
                     {
                         "area": "IDE",
                         "details": [
-                            "IntelliJ IDEA",
-                            "Eclipse",
-                            "Oracle JDeveloper",
-                            "VS Code"                    
+                            "IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code"                    
                         ]
                     },
                     {
                         "area": "Languages",
                         "details": [
-                            "Russian",
-                            "English"                    
+                            "Russian, English"                    
                         ]
                     },
                     {

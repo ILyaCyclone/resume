@@ -1,0 +1,50 @@
+# {{content.name}}
+## {{content.title}}
+
+{{#each contacts}}{{!-- ---------- contacts ---------- --}}
+  {{~{EXPRESSION}~}}
+  {{type}}: {{#if url}}{{~{EXPRESSION}~}}
+        {{#if text}}
+            {{~{EXPRESSION}~}} [{{text}}]({{url}})  
+        {{else}}
+            {{~{EXPRESSION}~}} [{{url}}]({{url}})  
+        {{/if}}
+    {{else}}
+        {{~{EXPRESSION}~}} {{text}}  
+    {{/if}}
+{{/each}}
+{{i18n.location}}: {{content.location}}  
+{{i18n.birthYear}}: {{content.birthYear}}  
+
+{{content.info}}
+
+# {{i18n.skills}}{{!-- ---------- skills ---------- --}}
+{{#each content.skills}}
+## {{area}}
+  {{#each details}}
+    {{~{EXPRESSION}~}}- {{this}}
+  {{/each}}
+
+{{/each}}
+{{#if content.experience}}{{!-- ---------- experience ---------- --}}
+# {{i18n.experience}}
+{{#each content.experience}}
+_{{period}}{{#if type}} ({{type}}){{/if}}_  
+**{{company}}**  
+[{{url}}]({{url}})  
+{{description}}
+    {{#each details}}
+    {{~{EXPRESSION}~}}- {{this}}
+    {{/each}}
+
+{{/each}}
+{{/if}}
+{{#if content.education}}{{!-- ---------- education ---------- --}}
+# {{i18n.education}}
+{{#each content.education}}
+_{{period}}_  
+**{{name}}**  
+{{speciality}}, {{level}}, {{qualification}}.
+
+{{/each}}
+{{/if}}

@@ -1,11 +1,12 @@
 # Ilya Chilikin
 ## Java developer
+
 Email: [ilya.cyclone@gmail.com](mailto:ilya.cyclone@gmail.com)  
 Telegram: [@ILyaCyclone](https://t.me/ILyaCyclone)  
 Skype: [ilya.cyclone](skype:ilya.cyclone)  
-Github: https://github.com/ILyaCyclone  
+Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)  
 Location: Moscow, Russia  
-Birth: 1988
+Birth: 1988  
 
 Interested in remote / project job.
 
@@ -24,7 +25,7 @@ Interested in remote / project job.
 ## Frontend (secondary skills)
 - npm, gulp, bower, basics of webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, MomentJS, vis.js, datatables etc
+- Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables etc
 - Adaptive design (mobile first)
 
 ## Developer tools
@@ -46,14 +47,11 @@ Interested in remote / project job.
 - memcached, nginx
 
 ## IDE
-- IntelliJ IDEA
-- Eclipse
-- Oracle JDeveloper
-- VS Code
+- IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code
 
 ## Languages
-- Russian
-- English
+- Russian, English
 
 ## Pending
 - Android, Jenkins, Docker, ReactJS
+

@@ -12,7 +12,7 @@
 ## Frontend (secondary skills)
 - npm, gulp, bower, basics of webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, MomentJS, vis.js, datatables etc
+- Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables etc
 - Adaptive design (mobile first)
 
 ## Developer tools
@@ -34,14 +34,10 @@
 - memcached, nginx
 
 ## IDE
-- IntelliJ IDEA
-- Eclipse
-- Oracle JDeveloper
-- VS Code
+- IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code
 
 ## Languages
-- Russian
-- English
+- Russian, English
 
 ## Pending
 - Android, Jenkins, Docker, ReactJS

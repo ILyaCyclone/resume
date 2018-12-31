@@ -4,8 +4,11 @@
   "description": "Build resume from json source",
   "main": "index.js",
   "scripts": {
-    "start": "npm run clean && node index",
+    "start": "npm run clean && npm run build",
     "clean": "node src/clean",
+    "build": "npm run build-handlebars",
+    "build-js": "node src/build-js",
+    "build-handlebars": "node src/build-handlebars",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ILyaCyclone/resume/issues"
   },
-  "homepage": "https://github.com/ILyaCyclone/resume#readme"
+  "homepage": "https://github.com/ILyaCyclone/resume#readme",
+  "dependencies": {
+    "handlebars": "^4.0.12"
+  }
 }
