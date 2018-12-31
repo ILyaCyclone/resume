@@ -1,0 +1,265 @@
+{
+    "contacts": [
+        {
+            "type": "Email",
+            "text": "ilya.cyclone@gmail.com",
+            "url": "mailto:ilya.cyclone@gmail.com"
+        },
+        {
+            "type": "Telegram",
+            "text": "@ILyaCyclone",
+            "url": "https://t.me/ILyaCyclone"
+        },
+        {
+            "type": "Skype",
+            "text": "ilya.cyclone",
+            "url": "skype:ilya.cyclone"
+        },
+        {
+            "type": "Github",
+            "url": "https://github.com/ILyaCyclone"
+        }
+    ],
+    "localization": [
+        {
+            "locale": "ru",
+            "content": {
+                "name": "Чиликин Илья Игоревич",
+                "birthYear": 1988,
+                "location": "Москва",
+                "title": "Java-разработчик",
+                "info": "Заинтересован в проектной / удалённой работе.",
+                "skills": [
+                    {
+                        "area": "Java",
+                        "details": [
+                            "Spring Framework (MVC, JDBC, Security, LDAP)",
+                            "Spring Boot",
+                            "Oracle Application Development Framework (Oracle ADF)",
+                            "Servlets/JSP, Freemarker",
+                            "SOAP/Rest Web services",
+                            "Java 8 (streams, lambdas, time api)",
+                            "основы microservices (Spring Cloud, Eureka, Config Server, Hystrix)",
+                            "основы Hibernate, Spring Data JPA, Bean Valdation",
+                            "основы unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)"                    
+                        ]
+                    },
+                    {
+                        "area": "Frontend (вторичные навыки)",
+                        "details": [
+                            "npm, gulp, bower, основы webpack",
+                            "Bootstrap, CSS, SASS (Scss)",
+                            "Javascript, jQuery, MomentJS, vis.js, datatables, другие плагины",
+                            "Adaptive design (mobile first)"                    
+                        ]
+                    },
+                    {
+                        "area": "Инструменты разработчика",
+                        "details": [
+                            "Maven, Nexus OSS (установка, конфигурация)",
+                            "Git, Git Flow"                  
+                        ]
+                    },
+                    {
+                        "area": "Базы данных",
+                        "details": [
+                            "Oracle, H2, PostgreSQL, MSSQL Server (использование)",
+                            "SQL, PL/SQL",
+                            "ERwin Data Modeler, Sybase PowerDesigner (CASE-средства)"                  
+                        ]
+                    },
+                    {
+                        "area": "Серверы приложений",
+                        "details": [
+                            "Tomcat, WebLogic, Glassfish, другие (установка, базовое администрирование)"
+                        ]
+                    },
+                    {
+                        "area": "Другие инструменты",
+                        "details": [
+                            "BIRT, iText, Apache POI (reporting)",
+                            "Google Script (Google Spreadsheet scripts)",
+                            "Chrome Dev Tools, Postman",
+                            "memcached, nginx"                    
+                        ]
+                    },
+                    {
+                        "area": "IDE",
+                        "details": [
+                            "IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code"                    
+                        ]
+                    },
+                    {
+                        "area": "Иностранные языки",
+                        "details": [
+                            "Английский (на хорошем уровне)"                    
+                        ]
+                    },
+                    {
+                        "area": "Ближайшие интересы",
+                        "details": [
+                            "Android, Jenkins, Docker, ReactJS"                    
+                        ]
+                    }
+                ],
+                "experience": [
+                    {
+                        "period": "2008 - настоящее время",
+                        "company": "Российский университет транспорта",
+                        "url": "https://rut-miit.ru",
+                        "description": "Ведение направления разработки и поддержки динамических web-приложений университета с использованием Spring Boot, Oracle Application Development Framework (Oracle ADF) и Servlets/JSP, frontend.",
+                        "details": [
+                            "Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java и сопровождение frontend-части сайта университета https://rut-miit.ru (Spring Boot, frontend stack).",
+                            "Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами.",
+                            "Разработка АСУ Федерального агентства железнодорожного транспорта (система сбора статистики и мониторинга отчётности вузов).",
+                            "Разработка множества систем и приложений поддержания деятельности университета: система управления контентом сайта университета, метрика хода приёмной кампании, система проведения студенческих олимпиад, регистрация на сайте и подача документов через Интернет, интеграция отчётных инструментов, автоматизация RSS, Sitemap, web-сервисы взаимодействия с внешними системами.",
+                            "Менторство, code-review junior-разработчиков и студентов.",
+                            "Документирование решений, ведение корпоративной Wiki."                    
+                        ]
+                    },
+                    {
+                        "period": "2016 - 2018",
+                        "type": "удалённая работа",
+                        "company": "Chanel",
+                        "url": "https://www.chanel.com/ru_RU/",
+                        "description": "Разработка приложений мониторинга торговых точек, организации встреч, ведения корпоративных фото-конкурсов, журнал учёта рабочего времени (Spring Framework, Bootstrap, Tomcat, MSSQL Server, интеграция с Active Directory и IBM Lotus)."
+                    },
+                    {
+                        "period": "2013",
+                        "type": "проектная работа",
+                        "company": "АВИ Консалт",
+                        "url": "https://aviconsult.ru/",
+                        "description": "Разработка системы управления кадрами для Danone (Oracle ADF, Glassfish, PostgreSQL)."
+                    },
+                    {
+                        "period": "2013",
+                        "type": "проектная работа",
+                        "company": "4DOC",
+                        "url": "http://4doc.ru/",
+                        "description": "Разработка прототипа автоматизированной системы поддержки федеральных целевых программ (Oracle ADF, WebLogic, PostgreSQL)."
+                    },
+                    {
+                        "period": "2010 - 2011",
+                        "type": "удалённая работа",
+                        "company": "Группа компаний Gost",
+                        "url": "https://gost-group.ru/",
+                        "description": "Проектирование архитектуры, разработка и сопровождение системы электронного документооборота (Oracle APEX, SQL, PL/SQL, ExtJS (Sencha), jQuery)."
+                    },
+                    {
+                        "period": "2007 - 2009",
+                        "company": "Московский государственный университет путей сообщения",
+                        "url": "https://miit.ru",
+                        "details": [
+                            "Начальник отдела разработки геоинформационной информационной системы (ГИС) для Федерального агентства ж/д транспорта (Servlets/JSP, ExtJS (Sencha), SQL, SOAP, SVN, MySQL) - студенческая деловая игра.",
+                            "Разработка web-системы поддержки проведения дистанционного обучения, расширяемой сервисной системы интеграции дополнительных модулей (Servlets/JSP, Hibernate, SQL, jQuery, SOAP, PostgreSQL).",
+                            "Разработка web-системы автоматизированной проверки выполнения студенческих практических работ в среде IBM z/OS (Servlets/JSP, JDBC, SQL, JavaScript, FTP, Oracle)."
+                        ]
+                    }
+                ],
+                "education": [
+                    {
+                        "period": "2010 - 2012",
+                        "name": "Московский государственный университет путей сообщения (МИИТ)",
+                        "level": "магистратура",
+                        "speciality": "Вычислительные системы и сети",
+                        "qualification": "магистр техники и технологии (красный диплом)"
+                    },
+                    {
+                        "period": "2005 - 2010",
+                        "name": "Московский государственный университет путей сообщения (МИИТ)",
+                        "level": "специалитет",
+                        "speciality": "Автоматизированные системы управления",
+                        "qualification": "инженер (красный диплом)"
+                    }
+                ]
+            }
+        },
+        {
+            "locale": "en",
+            "content": {
+                "name": "Ilya Chilikin",
+                "birthYear": 1988,
+                "location": "Moscow, Russia",
+                "title": "Java developer",
+                "info": "Interested in remote / project job.",
+                "skills": [
+                    {
+                        "area": "Java",
+                        "details": [
+                            "Spring Framework (MVC, JDBC, Security, LDAP)",
+                            "Spring Boot",
+                            "Oracle Application Development Framework (Oracle ADF)",
+                            "Servlets/JSP, Freemarker",
+                            "SOAP/Rest Web services",
+                            "Java 8 (streams, lambdas, time api)",
+                            "basics of microservices (Spring Cloud, Eureka, Config Server, Hystrix)",
+                            "basics of Hibernate, Spring Data JPA, Bean Valdation",
+                            "basics of unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)"                    
+                        ]
+                    },
+                    {
+                        "area": "Frontend (secondary skills)",
+                        "details": [
+                            "npm, gulp, bower, basics of webpack",
+                            "Bootstrap, CSS, SASS (Scss)",
+                            "Javascript, jQuery, MomentJS, vis.js, datatables etc",
+                            "Adaptive design (mobile first)"                    
+                        ]
+                    },
+                    {
+                        "area": "Developer tools",
+                        "details": [
+                            "Maven, Nexus OSS (installation, configuration)",
+                            "Git, Git Flow"                  
+                        ]
+                    },
+                    {
+                        "area": "Databases",
+                        "details": [
+                            "Oracle, H2, PostgreSQL, MSSQL Server (usage)",
+                            "SQL, PL/SQL",
+                            "ERwin Data Modeler, Sybase PowerDesigner (CASE)"
+                        ]
+                    },
+                    {
+                        "area": "Application servers",
+                        "details": [
+                            "Tomcat, WebLogic, Glassfish etc (installation, basic administration)"
+                        ]
+                    },
+                    {
+                        "area": "Other tools",
+                        "details": [
+                            "BIRT, iText, Apache POI (reporting)",
+                            "Google Script (Google Spreadsheet scripts)",
+                            "Chrome Dev Tools, Postman",
+                            "memcached, nginx"                    
+                        ]
+                    },
+                    {
+                        "area": "IDE",
+                        "details": [
+                            "IntelliJ IDEA",
+                            "Eclipse",
+                            "Oracle JDeveloper",
+                            "VS Code"                    
+                        ]
+                    },
+                    {
+                        "area": "Languages",
+                        "details": [
+                            "Russian",
+                            "English"                    
+                        ]
+                    },
+                    {
+                        "area": "Pending",
+                        "details": [
+                            "Android, Jenkins, Docker, ReactJS"                    
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

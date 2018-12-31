@@ -1,5 +1,3 @@
-# Навыки
-
 ## Java
 - Spring Framework (MVC, JDBC, Security, LDAP)
 - Spring Boot
@@ -7,7 +5,7 @@
 - Servlets/JSP, Freemarker
 - SOAP/Rest Web services
 - Java 8 (streams, lambdas, time api)
-- основы Microservices (Spring Cloud, Eureka, Config Server, Hystrix)
+- основы microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - основы Hibernate, Spring Data JPA, Bean Valdation
 - основы unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)
 
@@ -32,17 +30,14 @@
 ## Другие инструменты
 - BIRT, iText, Apache POI (reporting)
 - Google Script (Google Spreadsheet scripts)
-- Chrome Dev Tools
+- Chrome Dev Tools, Postman
 - memcached, nginx
 
 ## IDE
-- IntelliJ IDEA
-- Eclipse
-- Oracle JDeveloper
-- VS Code
-
-## Ближайшие интересы
-- Android, Jenkins, Docker, ReactJS
+- IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code
 
 ## Иностранные языки
 - Английский (на хорошем уровне)
+
+## Ближайшие интересы
+- Android, Jenkins, Docker, ReactJS
