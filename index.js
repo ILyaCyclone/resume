@@ -1,47 +1,12 @@
-const fs = require('fs');
+const fs = require("fs");
+const i18n = require("./src/i18n");
+const md = require("./src/markdown");
 
 const sourceFileName = "resume.json";
 
 const NL = "\n";
 const DEFAULT_LOCALE = "ru";
 
-const i18n = {
-    "ru": {
-        "location": "Город",
-        "birthYear": "Год рождения",
-        "skills": "Навыки",
-        "experience": "Опыт работы",
-        "education": "Образование"
-    },
-    "en": {
-        "location": "Location",
-        "birthYear": "Birth",
-        "skills": "Skills",
-        "experience": "Experience",
-        "education": "Education"
-    }
-}
-
-
-function heading(text, index) {
-    return "#".repeat(index)+` ${text}`;
-}
-
-function link(url, text) {
-    return `[${text}](${url})`;
-}
-
-function listItem(text) {
-    return `- ${text}`;
-}
-
-function italic(text) {
-    return `_${text}_`;
-}
-
-function bold(text) {
-    return `**${text}**`;
-}
 
 function writeFile(fileName, content) {
     fs.writeFile(fileName, content, function (err) {
@@ -54,35 +19,35 @@ const json = JSON.parse(fs.readFileSync(sourceFileName, 'utf8'));
 
 
 // ==================== contacts ====================
-const contactsMd = json.contacts.reduce(
+const contacts = json.contacts.reduce(
     (accum, contact) => {
-        const contactValue = contact.url && contact.text ? link(contact.url, contact.text) : (contact.url ? contact.url : contact.text); 
+        const contactValue = contact.url && contact.text ? md.link(contact.url, contact.text) : (contact.url ? contact.url : contact.text); 
         accum.push(`${contact.type}: ${contactValue}  `);
         return accum;
     }, []).join(NL);
 // ==================== end of contacts ====================
 
-json.localization.forEach(loc => {
+json.localization.forEach((loc) => {
     const locale = loc.locale;
     const content = loc.content;
 
     let lines = [];
-    lines.push(heading(content.name, 1));
-    lines.push(heading(content.title, 2));
-    lines.push(contactsMd);
+    lines.push(md.header(content.name, 1));
+    lines.push(md.header(content.title, 2));
+    lines.push(contacts);
     lines.push(`${i18n[locale].location}: ${content.location}  `);
     lines.push(`${i18n[locale].birthYear}: ${content.birthYear}`);
 
     lines.push(`${NL}${content.info}${NL}`);
     
     // ==================== skills ====================
-    lines.push(heading(i18n[locale].skills, 1));
+    lines.push(md.header(i18n[locale].skills, 1));
 
     const skills = content.skills.reduce(
         (accum, skill) => {
-            accum.push(heading(skill.area, 2));
+            accum.push(md.header(skill.area, 2));
 
-            accum = accum.concat(skill.details.map(detail => listItem(detail)));
+            accum = accum.concat(skill.details.map((detail) => md.listItem(detail)));
             accum.push("");
             return accum;
         }, []).join(NL);
@@ -94,12 +59,12 @@ json.localization.forEach(loc => {
 
     // ==================== experience ====================
     if(content.experience) {
-        lines.push(heading(i18n[locale].experience, 1));
+        lines.push(md.header(i18n[locale].experience, 1));
 
         const experience = content.experience.reduce(
             (accum, exp) => {
-                accum.push(italic(exp.period + (exp.type ? ` (${exp.type})` : "")));
-                accum.push(bold(exp.company));
+                accum.push(md.italic(exp.period + (exp.type ? ` (${exp.type})` : "")));
+                accum.push(md.bold(exp.company));
                 if(exp.url) {
                     accum.push(exp.url);
                 }
@@ -107,7 +72,7 @@ json.localization.forEach(loc => {
                     accum.push(exp.description);
                 }
                 if(exp.details) {
-                    accum = accum.concat(exp.details.map(detail => listItem(detail)));
+                    accum = accum.concat(exp.details.map((detail) => md.listItem(detail)));
                 }
                 accum.push("");
 
@@ -119,12 +84,12 @@ json.localization.forEach(loc => {
 
     // ==================== education ====================
     if(content.education) {
-        lines.push(heading(i18n[locale].education, 1));
+        lines.push(md.header(i18n[locale].education, 1));
 
         const education = content.education.reduce(
             (accum, edu) => {
-                accum.push(italic(edu.period));
-                accum.push(bold(edu.name));
+                accum.push(md.italic(edu.period));
+                accum.push(md.bold(edu.name));
                 accum.push(`${edu.speciality}, ${edu.level}, ${edu.qualification}  ${NL}`);
                 return accum;
             }, []).join("  "+NL);

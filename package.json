@@ -4,7 +4,8 @@
   "description": "Build resume from json source",
   "main": "index.js",
   "scripts": {
-    "build": "node index",
+    "start": "npm run clean && node index",
+    "clean": "node src/clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
