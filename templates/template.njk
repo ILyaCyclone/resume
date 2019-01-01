@@ -1,0 +1,42 @@
+# {{content.name}}
+## {{content.title}}
+
+{% for contact in contacts -%}{# ---------- contacts ---------- #}
+  {{-contact.type}}: {% if contact.url and contact.text %}[{{contact.text}}]({{contact.url}})  
+{% elseif contact.url %}[{{contact.url}}]({{contact.url}})  
+{% else %}{{contact.text}}  
+  {% endif %}
+{%- endfor -%}
+{{i18n.location}}: {{content.location}}  
+{{i18n.birthYear}}: {{content.birthYear}}  
+
+{{content.info}}
+
+# {{i18n.skills}}{# ---------- skills ---------- #}
+{% for skill in content.skills -%}
+## {{skill.area}}
+  {%- for detail in skill.details %}
+- {{detail}}
+  {%- endfor %}
+
+{% endfor %}
+{%- if content.experience -%}{# ---------- experience ---------- #}
+# {{i18n.experience}}
+{%- for exp in content.experience %}
+_{{exp.period}}{% if exp.type %} ({{exp.type}}){% endif %}_  
+**{{exp.company}}**  
+[{{exp.url}}]({{exp.url}})  
+{{exp.description}}
+{%- for detail in exp.details %}
+- {{detail}}
+{%- endfor %}
+{% endfor %}
+{% endif -%}
+{% if content.education -%}{# ---------- education ---------- #}
+# {{i18n.education-}}
+{% for edu in content.education %}
+_{{edu.period}}_  
+**{{edu.name}}**  
+{{edu.speciality}}, {{edu.level}}, {{edu.qualification}}.
+{% endfor %}
+{% endif %}

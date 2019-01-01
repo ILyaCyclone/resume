@@ -6,9 +6,10 @@
   "scripts": {
     "start": "npm run clean && npm run build",
     "clean": "node src/clean",
-    "build": "npm run build-handlebars",
+    "build": "npm run build-nunjucks",
     "build-js": "node src/build-js",
     "build-handlebars": "node src/build-handlebars",
+    "build-nunjucks": "node src/build-nunjucks",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/ILyaCyclone/resume#readme",
   "dependencies": {
-    "handlebars": "^4.0.12"
+    "handlebars": "^4.0.12",
+    "nunjucks": "^3.1.6"
   }
 }
