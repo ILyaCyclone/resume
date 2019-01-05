@@ -1,16 +1,14 @@
 # {{content.name}}
 ## {{content.title}}
-
-{{#each contacts}}{{!-- ---------- contacts ---------- --}}
-  {{~{EXPRESSION}~}}
-  {{type}}: {{#if url}}{{~{EXPRESSION}~}}
-        {{#if text}}
-            {{~{EXPRESSION}~}} [{{text}}]({{url}})  
-        {{else}}
-            {{~{EXPRESSION}~}} [{{url}}]({{url}})  
+{{#each contacts~}}{{!-- ---------- contacts ---------- --}}
+  {{~type}}: {{#if url}}
+        {{~#if text~}}
+            [{{text}}]({{url}})  
+        {{else~}}
+            [{{url}}]({{url}})  
         {{/if}}
-    {{else}}
-        {{~{EXPRESSION}~}} {{text}}  
+    {{else~}}
+        {{text}}  
     {{/if}}
 {{/each}}
 {{i18n.location}}: {{content.location}}  
@@ -21,11 +19,11 @@
 # {{i18n.skills}}{{!-- ---------- skills ---------- --}}
 {{#each content.skills}}
 ## {{area}}
-  {{#each details}}
-    {{~{EXPRESSION}~}}- {{this}}
-  {{/each}}
+{{#each details~}}
+    - {{this}}{{#unless @last}}
+{{/unless}}{{/each}}{{#unless @last}}
 
-{{/each}}
+{{/unless}}{{/each}}
 {{#if content.experience}}{{!-- ---------- experience ---------- --}}
 # {{i18n.experience}}
 {{#each content.experience}}
@@ -33,10 +31,12 @@ _{{period}}{{#if type}} ({{type}}){{/if}}_
 **{{company}}**  
 [{{url}}]({{url}})  
 {{description}}
-    {{#each details}}
-    {{~{EXPRESSION}~}}- {{this}}
-    {{/each}}
+  {{#each details~}}
+    - {{this}}
+  {{/each}}
+{{#unless @last}}
 
+{{/unless}}
 {{/each}}
 {{/if}}
 {{#if content.education}}{{!-- ---------- education ---------- --}}
@@ -44,7 +44,6 @@ _{{period}}{{#if type}} ({{type}}){{/if}}_
 {{#each content.education}}
 _{{period}}_  
 **{{name}}**  
-{{speciality}}, {{level}}, {{qualification}}.
+{{speciality}}, {{level}}, {{qualification}}.{{#unless @last}}
 
-{{/each}}
-{{/if}}
+{{/unless}}{{/each}}{{/if}}

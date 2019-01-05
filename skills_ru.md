@@ -12,8 +12,8 @@
 ## Frontend (вторичные навыки)
 - npm, gulp, bower, основы webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables, другие плагины
-- Adaptive design (mobile first)
+- Javascript, jQuery, Moment.js, vis.js, datatables, другие плагины
+- Handlebars, Nunjucks, Adaptive design (mobile first)
 
 ## Инструменты разработчика
 - Maven, Nexus OSS (установка, конфигурация)

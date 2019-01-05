@@ -1,6 +1,5 @@
 # Чиликин Илья Игоревич
 ## Java-разработчик
-
 Email: [ilya.cyclone@gmail.com](mailto:ilya.cyclone@gmail.com)  
 Telegram: [@ILyaCyclone](https://t.me/ILyaCyclone)  
 Skype: [ilya.cyclone](skype:ilya.cyclone)  
@@ -20,13 +19,13 @@ Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)
 - Java 8 (streams, lambdas, time api)
 - основы microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - основы Hibernate, Spring Data JPA, Bean Valdation
-- основы unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)
+- основы unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
 
 ## Frontend (вторичные навыки)
 - npm, gulp, bower, основы webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables, другие плагины
-- Adaptive design (mobile first)
+- Javascript, jQuery, Moment.js, vis.js, datatables, другие плагины
+- Handlebars, Nunjucks, адаптивная вёрстка (mobile first)
 
 ## Инструменты разработчика
 - Maven, Nexus OSS (установка, конфигурация)
@@ -54,7 +53,6 @@ Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)
 
 ## Ближайшие интересы
 - Android, Jenkins, Docker, ReactJS
-
 
 # Опыт работы
 _2008 - настоящее время_  
@@ -96,7 +94,6 @@ _2007 - 2009_
 - Разработка web-системы поддержки проведения дистанционного обучения, расширяемой сервисной системы интеграции дополнительных модулей (Servlets/JSP, Hibernate, SQL, jQuery, SOAP, PostgreSQL).
 - Разработка web-системы автоматизированной проверки выполнения студенческих практических работ в среде IBM z/OS (Servlets/JSP, JDBC, SQL, JavaScript, FTP, Oracle).
 
-
 # Образование
 _2010 - 2012_  
 **Московский государственный университет путей сообщения (МИИТ)**  
@@ -105,4 +102,3 @@ _2010 - 2012_
 _2005 - 2010_  
 **Московский государственный университет путей сообщения (МИИТ)**  
 Автоматизированные системы управления, специалитет, инженер (красный диплом).
-

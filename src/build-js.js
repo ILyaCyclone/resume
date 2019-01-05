@@ -21,7 +21,7 @@ const json = JSON.parse(fs.readFileSync(sourceFileName, 'utf8'));
 // ==================== contacts ====================
 const contacts = json.contacts.reduce(
     (accum, contact) => {
-        const contactValue = contact.url && contact.text ? md.link(contact.url, contact.text) : (contact.url ? contact.url : contact.text); 
+        const contactValue = (contact.url && contact.text) ? md.link(contact.url, contact.text) : (contact.url ? md.link(contact.url) : contact.text); 
         accum.push(`${contact.type}: ${contactValue}  `);
         return accum;
     }, []).join(NL);
@@ -63,10 +63,10 @@ json.localization.forEach((loc) => {
 
         const experience = content.experience.reduce(
             (accum, exp) => {
-                accum.push(md.italic(exp.period + (exp.type ? ` (${exp.type})` : "")));
-                accum.push(md.bold(exp.company));
+                accum.push(md.italic(exp.period + (exp.type ? ` (${exp.type})` : ""))+"  ");
+                accum.push(md.bold(exp.company)+"  ");
                 if(exp.url) {
-                    accum.push(md.link(exp.url));
+                    accum.push(md.link(exp.url)+"  ");
                 }
                 if(exp.description) {
                     accum.push(exp.description);
@@ -77,7 +77,7 @@ json.localization.forEach((loc) => {
                 accum.push("");
 
                 return accum;
-            }, []).join("  "+NL);
+            }, []).join(NL);
         lines.push(experience);
     }
     // ==================== end of experience ====================
@@ -88,11 +88,11 @@ json.localization.forEach((loc) => {
 
         const education = content.education.reduce(
             (accum, edu) => {
-                accum.push(md.italic(edu.period));
-                accum.push(md.bold(edu.name));
-                accum.push(`${edu.speciality}, ${edu.level}, ${edu.qualification}  ${NL}`);
+                accum.push(md.italic(edu.period)+"  ");
+                accum.push(md.bold(edu.name)+"  ");
+                accum.push(`${edu.speciality}, ${edu.level}, ${edu.qualification}.${NL}`);
                 return accum;
-            }, []).join("  "+NL);
+            }, []).join(NL);
         lines.push(education);
     }
     // ==================== end of education ====================

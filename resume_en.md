@@ -1,6 +1,5 @@
 # Ilya Chilikin
 ## Java developer
-
 Email: [ilya.cyclone@gmail.com](mailto:ilya.cyclone@gmail.com)  
 Telegram: [@ILyaCyclone](https://t.me/ILyaCyclone)  
 Skype: [ilya.cyclone](skype:ilya.cyclone)  
@@ -20,13 +19,13 @@ Interested in remote / project job.
 - Java 8 (streams, lambdas, time api)
 - basics of microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - basics of Hibernate, Spring Data JPA, Bean Valdation
-- basics of unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)
+- basics of unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
 
 ## Frontend (secondary skills)
 - npm, gulp, bower, basics of webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables etc
-- Adaptive design (mobile first)
+- Javascript, jQuery, Moment.js, vis.js, datatables etc
+- Handlebars, Nunjucks, adaptive design (mobile first)
 
 ## Developer tools
 - Maven, Nexus OSS (installation, configuration)
@@ -54,4 +53,3 @@ Interested in remote / project job.
 
 ## Pending
 - Android, Jenkins, Docker, ReactJS
-

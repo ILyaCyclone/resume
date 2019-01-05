@@ -1,6 +1,5 @@
 # {{content.name}}
 ## {{content.title}}
-
 {% for contact in contacts -%}{# ---------- contacts ---------- #}
   {{-contact.type}}: {% if contact.url and contact.text %}[{{contact.text}}]({{contact.url}})  
 {% elseif contact.url %}[{{contact.url}}]({{contact.url}})  

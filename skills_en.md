@@ -12,8 +12,8 @@
 ## Frontend (secondary skills)
 - npm, gulp, bower, basics of webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, Handlebars, Moment.js, vis.js, datatables etc
-- Adaptive design (mobile first)
+- Javascript, jQuery, Moment.js, vis.js, datatables etc
+- Handlebars, Nunjucks, adaptive design (mobile first)
 
 ## Developer tools
 - Maven, Nexus OSS (installation, configuration)
