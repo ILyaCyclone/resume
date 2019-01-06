@@ -15,13 +15,13 @@ function writeFile(fileName, content) {
       });
 }
 
-const json = JSON.parse(fs.readFileSync(sourceFileName, 'utf8'));
+const json = JSON.parse(fs.readFileSync(sourceFileName, "utf8"));
 
 
 // ==================== contacts ====================
 const contacts = json.contacts.reduce(
     (accum, contact) => {
-        const contactValue = (contact.url && contact.text) ? md.link(contact.url, contact.text) : (contact.url ? md.link(contact.url) : contact.text); 
+        const contactValue = (contact.url && contact.text) ? md.link(contact.url, contact.text) : (contact.url ? md.link(contact.url) : contact.text);
         accum.push(`${contact.type}: ${contactValue}  `);
         return accum;
     }, []).join(NL);
@@ -39,7 +39,7 @@ json.localization.forEach((loc) => {
     lines.push(`${i18n[locale].birthYear}: ${content.birthYear}`);
 
     lines.push(`${NL}${content.info}${NL}`);
-    
+
     // ==================== skills ====================
     lines.push(md.header(i18n[locale].skills, 1));
 
@@ -53,7 +53,7 @@ json.localization.forEach((loc) => {
         }, []).join(NL);
 
     writeFile(`skills_${locale}.md`, skills);
-    
+
     lines.push(skills);
     // ==================== end of skills ====================
 
@@ -88,11 +88,14 @@ json.localization.forEach((loc) => {
 
         const education = content.education.reduce(
             (accum, edu) => {
-                accum.push(md.italic(edu.period)+"  ");
-                accum.push(md.bold(edu.name)+"  ");
-                accum.push(`${edu.speciality}, ${edu.level}, ${edu.qualification}.${NL}`);
+                let eduLines = [];
+                eduLines.push(md.italic(edu.period)+"  ");
+                eduLines.push(md.bold(edu.name)+"  ");
+                eduLines.push(`${edu.speciality}, ${edu.level}, ${edu.qualification}.`);
+                accum.push(eduLines.join(NL));
+
                 return accum;
-            }, []).join(NL);
+            }, []).join(NL+NL);
         lines.push(education);
     }
     // ==================== end of education ====================

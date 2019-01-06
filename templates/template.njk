@@ -7,35 +7,34 @@
   {% endif %}
 {%- endfor -%}
 {{i18n.location}}: {{content.location}}  
-{{i18n.birthYear}}: {{content.birthYear}}  
+{{i18n.birthYear}}: {{content.birthYear}}
 
 {{content.info}}
-
-# {{i18n.skills}}{# ---------- skills ---------- #}
-{% for skill in content.skills -%}
-## {{skill.area}}
+{# ---------- skills ---------- #}
+# {{i18n.skills-}}
+{% set nl = joiner("\n") %}{% for skill in content.skills %}
+{{ nl() }}## {{skill.area}}
   {%- for detail in skill.details %}
 - {{detail}}
   {%- endfor %}
-
-{% endfor %}
-{%- if content.experience -%}{# ---------- experience ---------- #}
-# {{i18n.experience}}
-{%- for exp in content.experience %}
-_{{exp.period}}{% if exp.type %} ({{exp.type}}){% endif %}_  
+{%- endfor %}
+{% if content.experience %}{# ---------- experience ---------- #}
+# {{i18n.experience-}}
+{% set nl = joiner("\n") %}{% for exp in content.experience %}
+{{ nl() }}_{{exp.period}}{% if exp.type %} ({{exp.type}}){% endif %}_  
 **{{exp.company}}**  
 [{{exp.url}}]({{exp.url}})  
 {{exp.description}}
-{%- for detail in exp.details %}
+  {%- for detail in exp.details %}
 - {{detail}}
+  {%- endfor %}
 {%- endfor %}
-{% endfor %}
-{% endif -%}
-{% if content.education -%}{# ---------- education ---------- #}
+{%- endif %}
+{% if content.education %}{# ---------- education ---------- #}
 # {{i18n.education-}}
-{% for edu in content.education %}
-_{{edu.period}}_  
+{% set nl = joiner("\n") %}{% for edu in content.education %}
+{{ nl() }}_{{edu.period}}_  
 **{{edu.name}}**  
 {{edu.speciality}}, {{edu.level}}, {{edu.qualification}}.
-{% endfor %}
-{% endif %}
+{%- endfor %}
+{%- endif %}

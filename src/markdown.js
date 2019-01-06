@@ -4,7 +4,7 @@ module.exports = {
     },
 
     link: function (url, text) {
-        return text ? `[${text}](${url})` : `[${url}](${url})`;
+        return `[${(text ? text : url)}](${url})`;
     },
 
     listItem: function (text) {
