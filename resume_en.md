@@ -5,7 +5,7 @@ Telegram: [@ILyaCyclone](https://t.me/ILyaCyclone)
 Skype: [ilya.cyclone](skype:ilya.cyclone)  
 Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)  
 Location: Moscow, Russia  
-Birth: 1988  
+Birth: 1988
 
 Interested in remote / project job.
 
@@ -53,3 +53,4 @@ Interested in remote / project job.
 
 ## Pending
 - Android, Jenkins, Docker, ReactJS
+

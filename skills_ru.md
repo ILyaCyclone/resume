@@ -7,13 +7,13 @@
 - Java 8 (streams, lambdas, time api)
 - основы microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - основы Hibernate, Spring Data JPA, Bean Valdation
-- основы unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)
+- основы unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
 
 ## Frontend (вторичные навыки)
 - npm, gulp, bower, основы webpack
 - Bootstrap, CSS, SASS (Scss)
 - Javascript, jQuery, Moment.js, vis.js, datatables, другие плагины
-- Handlebars, Nunjucks, Adaptive design (mobile first)
+- Handlebars, Nunjucks, адаптивная вёрстка (mobile first)
 
 ## Инструменты разработчика
 - Maven, Nexus OSS (установка, конфигурация)

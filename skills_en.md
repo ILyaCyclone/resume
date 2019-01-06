@@ -7,7 +7,7 @@
 - Java 8 (streams, lambdas, time api)
 - basics of microservices (Spring Cloud, Eureka, Config Server, Hystrix)
 - basics of Hibernate, Spring Data JPA, Bean Valdation
-- basics of unit/integration testing (JUnit, Hamcrest, Mockito, MockMVC)
+- basics of unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
 
 ## Frontend (secondary skills)
 - npm, gulp, bower, basics of webpack

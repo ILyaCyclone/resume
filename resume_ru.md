@@ -5,7 +5,7 @@ Telegram: [@ILyaCyclone](https://t.me/ILyaCyclone)
 Skype: [ilya.cyclone](skype:ilya.cyclone)  
 Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)  
 Город: Москва  
-Год рождения: 1988  
+Год рождения: 1988
 
 Заинтересован в проектной / удалённой работе.
 

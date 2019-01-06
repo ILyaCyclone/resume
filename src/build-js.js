@@ -4,7 +4,7 @@ const md = require("./markdown");
 
 const sourceFileName = "resume.json";
 
-const NL = "\n";
+const NL = "\n", NL2 = "\n\n";
 const DEFAULT_LOCALE = "ru";
 
 
@@ -38,19 +38,20 @@ json.localization.forEach((loc) => {
     lines.push(`${i18n[locale].location}: ${content.location}  `);
     lines.push(`${i18n[locale].birthYear}: ${content.birthYear}`);
 
-    lines.push(`${NL}${content.info}${NL}`);
-
+    lines.push(`${NL}${content.info}`);
     // ==================== skills ====================
+    lines.push("");
     lines.push(md.header(i18n[locale].skills, 1));
 
     const skills = content.skills.reduce(
         (accum, skill) => {
-            accum.push(md.header(skill.area, 2));
+            let skillLines = [];
+            skillLines.push(md.header(skill.area, 2));
 
-            accum = accum.concat(skill.details.map((detail) => md.listItem(detail)));
-            accum.push("");
+            skillLines = skillLines.concat(skill.details.map((detail) => md.listItem(detail)));
+            accum.push(skillLines.join(NL));
             return accum;
-        }, []).join(NL);
+        }, []).join(NL2);
 
     writeFile(`skills_${locale}.md`, skills);
 
@@ -59,31 +60,34 @@ json.localization.forEach((loc) => {
 
     // ==================== experience ====================
     if(content.experience) {
+        lines.push("");
         lines.push(md.header(i18n[locale].experience, 1));
 
         const experience = content.experience.reduce(
             (accum, exp) => {
-                accum.push(md.italic(exp.period + (exp.type ? ` (${exp.type})` : ""))+"  ");
-                accum.push(md.bold(exp.company)+"  ");
+                let expLines = [];
+                expLines.push(md.italic(exp.period + (exp.type ? ` (${exp.type})` : ""))+"  ");
+                expLines.push(md.bold(exp.company)+"  ");
                 if(exp.url) {
-                    accum.push(md.link(exp.url)+"  ");
+                    expLines.push(md.link(exp.url)+"  ");
                 }
                 if(exp.description) {
-                    accum.push(exp.description);
+                    expLines.push(exp.description);
                 }
                 if(exp.details) {
-                    accum = accum.concat(exp.details.map((detail) => md.listItem(detail)));
+                    expLines = expLines.concat(exp.details.map((detail) => md.listItem(detail)));
                 }
-                accum.push("");
+                accum.push(expLines.join(NL));
 
                 return accum;
-            }, []).join(NL);
+            }, []).join(NL2);
         lines.push(experience);
     }
     // ==================== end of experience ====================
 
     // ==================== education ====================
     if(content.education) {
+        lines.push("");
         lines.push(md.header(i18n[locale].education, 1));
 
         const education = content.education.reduce(
@@ -95,7 +99,7 @@ json.localization.forEach((loc) => {
                 accum.push(eduLines.join(NL));
 
                 return accum;
-            }, []).join(NL+NL);
+            }, []).join(NL2);
         lines.push(education);
     }
     // ==================== end of education ====================
