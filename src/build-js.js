@@ -21,7 +21,9 @@ const json = JSON.parse(fs.readFileSync(sourceFileName, "utf8"));
 // ==================== contacts ====================
 const contacts = json.contacts.reduce(
     (accum, contact) => {
-        const contactValue = (contact.url && contact.text) ? md.link(contact.url, contact.text) : (contact.url ? md.link(contact.url) : contact.text);
+        const contactValue = (contact.url && contact.text)
+            ? md.link(contact.url, contact.text)
+            : (contact.url ? md.link(contact.url) : contact.text);
         accum.push(`${contact.type}: ${contactValue}  `);
         return accum;
     }, []).join(NL);

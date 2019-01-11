@@ -42,7 +42,7 @@ Interested in remote / project job.
 ## Other tools
 - BIRT, iText, Apache POI (reporting)
 - Google Script (Google Spreadsheet scripts)
-- Chrome Dev Tools, Postman
+- curl, Postman, Chrome Dev Tools
 - memcached, nginx
 
 ## IDE
@@ -53,4 +53,3 @@ Interested in remote / project job.
 
 ## Pending
 - Android, Jenkins, Docker, ReactJS
-

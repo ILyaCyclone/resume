@@ -42,7 +42,7 @@ Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)
 ## Другие инструменты
 - BIRT, iText, Apache POI (reporting)
 - Google Script (Google Spreadsheet scripts)
-- Chrome Dev Tools, Postman
+- curl, Postman, Chrome Dev Tools
 - memcached, nginx
 
 ## IDE
@@ -58,7 +58,7 @@ Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)
 _2008 - настоящее время_  
 **Российский университет транспорта**  
 [https://rut-miit.ru](https://rut-miit.ru)  
-Ведение направления разработки и поддержки динамических web-приложений университета с использованием Spring Boot, Oracle Application Development Framework (Oracle ADF) и Servlets/JSP, frontend.
+Ведение направления разработки и поддержки динамических web-приложений университета с использованием Spring Boot, Oracle Application Development Framework (Oracle ADF), Servlets/JSP, web services, frontend.
 - Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java и сопровождение frontend-части сайта университета https://rut-miit.ru (Spring Boot, frontend stack).
 - Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами.
 - Разработка АСУ Федерального агентства железнодорожного транспорта (система сбора статистики и мониторинга отчётности вузов).
@@ -89,7 +89,7 @@ _2010 - 2011 (удалённая работа)_
 _2007 - 2009_  
 **Московский государственный университет путей сообщения**  
 [https://miit.ru](https://miit.ru)  
-Разработка приложений сопровождения дистанционного обучения и проектов кафедры.
+Разработка web-приложений сопровождения дистанционного обучения и проектов кафедры.
 - Начальник отдела разработки геоинформационной информационной системы (ГИС) для Федерального агентства ж/д транспорта (Servlets/JSP, ExtJS (Sencha), SQL, SOAP, SVN, MySQL) - студенческая деловая игра.
 - Разработка web-системы поддержки проведения дистанционного обучения, расширяемой сервисной системы интеграции дополнительных модулей (Servlets/JSP, Hibernate, SQL, jQuery, SOAP, PostgreSQL).
 - Разработка web-системы автоматизированной проверки выполнения студенческих практических работ в среде IBM z/OS (Servlets/JSP, JDBC, SQL, JavaScript, FTP, Oracle).
