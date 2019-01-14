@@ -11,14 +11,13 @@ Interested in remote / project job.
 
 # Skills
 ## Java
-- Spring Framework (MVC, JDBC, Security, LDAP)
-- Spring Boot
+- Spring Boot, Spring Framework (MVC, JDBC, Security, LDAP)
 - Oracle Application Development Framework (Oracle ADF)
 - Servlets/JSP, Freemarker
 - SOAP/Rest Web services
 - Java 8 (streams, lambdas, time api)
 - basics of microservices (Spring Cloud, Eureka, Config Server, Hystrix)
-- basics of Hibernate, Spring Data JPA, Bean Valdation
+- basics of Hibernate, Spring Data JPA, Bean Validation
 - basics of unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
 
 ## Frontend (secondary skills)
