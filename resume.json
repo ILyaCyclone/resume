@@ -33,71 +33,57 @@
                     {
                         "area": "Java",
                         "details": [
-                            "Spring Boot, Spring Framework (MVC, JDBC, Security, LDAP)",
+                            "Spring Boot, Spring Framework (MVC, JDBC, Data, Security)",
                             "Oracle Application Development Framework (Oracle ADF)",
-                            "Servlets/JSP, Freemarker",
+                            "Servlets/JSP, Freemarker, Thymeleaf",
                             "SOAP/Rest Web services",
-                            "Java 8 (streams, lambdas, time api)",
-                            "основы microservices (Spring Cloud, Eureka, Config Server, Hystrix)",
-                            "основы Hibernate, Spring Data JPA, Bean Validation",
-                            "основы unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)"                    
+                            "Java 8: streams, lambdas, time api",
+                            "unit/integration testing: Selenium, JUnit, Hamcrest, AssertJ, Mockito",
+                            "основы microservices: Spring Cloud, Eureka, Config Server, Hystrix",
+                            "основы reactive stack: Spring WebFlux, Spring Data Reactive MongoDB"
                         ]
                     },
                     {
                         "area": "Frontend (вторичные навыки)",
                         "details": [
+                            "Javascript, ReactJS, jQuery",
                             "npm, gulp, bower, основы webpack",
                             "Bootstrap, CSS, SASS (Scss)",
-                            "Javascript, jQuery, Moment.js, vis.js, datatables, другие плагины",
                             "Handlebars, Nunjucks, адаптивная вёрстка (mobile first)"                    
                         ]
                     },
                     {
                         "area": "Инструменты разработчика",
                         "details": [
-                            "Maven, Nexus OSS (установка, конфигурация)",
-                            "Git, Git Flow"                  
+                            "основные: IntelliJ IDEA, VS Code",
+                            "дополнительные: Oracle JDeveloper, Eclipse",
+                            "Maven, Nexus OSS",
+                            "Git, Git Flow"
                         ]
                     },
                     {
-                        "area": "Базы данных",
+                        "area": "Серверы приложений и базы данных",
                         "details": [
-                            "Oracle, H2, PostgreSQL, MSSQL Server (использование)",
-                            "SQL, PL/SQL",
-                            "ERwin Data Modeler, Sybase PowerDesigner (CASE-средства)"                  
-                        ]
-                    },
-                    {
-                        "area": "Серверы приложений",
-                        "details": [
-                            "Tomcat, WebLogic, Glassfish, другие (установка, базовое администрирование)"
+                            "Tomcat, WebLogic",
+                            "основные: Oracle DB, H2",
+                            "дополнительные: MongoDB, PostgreSQL, MSSQL Server",
+                            "Liquibase, Mongock",
+                            "SQL, PL/SQL"                 
                         ]
                     },
                     {
                         "area": "Другие инструменты",
                         "details": [
-                            "BIRT, iText, Apache POI (reporting)",
-                            "Google Script (Google Spreadsheet scripts)",
-                            "curl, Postman, Chrome Dev Tools",
-                            "memcached, nginx"                    
-                        ]
-                    },
-                    {
-                        "area": "IDE",
-                        "details": [
-                            "IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code"                    
+                            "nginx, memcached",
+                            "BIRT (reporting tool), Google Script (Google Spreadsheet scripts)",
+                            "curl, Postman, Chrome Dev Tools"
+                                           
                         ]
                     },
                     {
                         "area": "Иностранные языки",
                         "details": [
                             "Английский (на хорошем уровне)"                    
-                        ]
-                    },
-                    {
-                        "area": "Ближайшие интересы",
-                        "details": [
-                            "Android, Jenkins, Docker, ReactJS"                    
                         ]
                     }
                 ],
@@ -109,7 +95,7 @@
                         "description": "Ведение направления разработки и поддержки динамических web-приложений университета с использованием Spring Boot, Oracle Application Development Framework (Oracle ADF), Servlets/JSP, web services, frontend.",
                         "details": [
                             "Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java и сопровождение frontend-части сайта университета https://rut-miit.ru (Spring Boot, frontend stack).",
-                            "Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами.",
+                            "Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами (Oracle ADF).",
                             "Разработка АСУ Федерального агентства железнодорожного транспорта (система сбора статистики и мониторинга отчётности вузов).",
                             "Разработка множества систем и приложений поддержания деятельности университета: система управления контентом сайта университета, метрика хода приёмной кампании, система проведения студенческих олимпиад, регистрация на сайте и подача документов через Интернет, интеграция отчётных инструментов, автоматизация RSS, Sitemap, web-сервисы взаимодействия с внешними системами.",
                             "Менторство, code-review junior-разработчиков и студентов.",
@@ -181,7 +167,7 @@
                 "birthYear": 1988,
                 "location": "Moscow, Russia",
                 "title": "Java developer",
-                "info": "Interested in remote / project job.",
+                "info": "Open for remote / part-time projects.",
                 "skills": [
                     {
                         "area": "Java",
