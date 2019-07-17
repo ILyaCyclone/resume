@@ -7,48 +7,40 @@ Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)
 Location: Moscow, Russia  
 Birth: 1988
 
-Interested in remote / project job.
+Open for remote / part-time projects.
 
 # Skills
 ## Java
-- Spring Boot, Spring Framework (MVC, JDBC, Security, LDAP)
+- Spring Boot, Spring Framework (MVC, JDBC, Data JPA, Data MongoDB, Security)
+- Java 8: streams, lambdas, date/time api
+- unit/integration testing: Selenium, JUnit, Mockito, AssertJ, Hamcrest
+- Servlets, JSP, Freemarker, Thymeleaf
 - Oracle Application Development Framework (Oracle ADF)
-- Servlets/JSP, Freemarker
-- SOAP/Rest Web services
-- Java 8 (streams, lambdas, time api)
-- basics of microservices (Spring Cloud, Eureka, Config Server, Hystrix)
-- basics of Hibernate, Spring Data JPA, Bean Validation
-- basics of unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
+- SOAP/REST web services
+- basics of microservices: Spring Cloud, Eureka, Config Server, Hystrix
+- basics of reactive stack: Spring WebFlux, Spring Data Reactive MongoDB
 
-## Frontend (secondary skills)
-- npm, gulp, bower, basics of webpack
+## Frontend
+- Javascript, ReactJS, jQuery
+- npm, yarn, gulp, bower, basics of webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, Moment.js, vis.js, datatables etc
 - Handlebars, Nunjucks, adaptive design (mobile first)
 
 ## Developer tools
-- Maven, Nexus OSS (installation, configuration)
+- Maven, Nexus OSS, basics of Docker
 - Git, Git Flow
+- IntelliJ IDEA, VS Code, Oracle JDeveloper, Eclipse
 
-## Databases
-- Oracle, H2, PostgreSQL, MSSQL Server (usage)
+## Application servers and databases
+- Tomcat, WebLogic
+- Oracle DB, H2, MongoDB, PostgreSQL, MSSQL Server
 - SQL, PL/SQL
-- ERwin Data Modeler, Sybase PowerDesigner (CASE)
-
-## Application servers
-- Tomcat, WebLogic, Glassfish etc (installation, basic administration)
+- Liquibase, Mongock
 
 ## Other tools
-- BIRT, iText, Apache POI (reporting)
-- Google Script (Google Spreadsheet scripts)
+- nginx, memcached
+- BIRT (reporting tool), Google Script (Google Spreadsheet scripts)
 - curl, Postman, Chrome Dev Tools
-- memcached, nginx
-
-## IDE
-- IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code
 
 ## Languages
 - Russian, English
-
-## Pending
-- Android, Jenkins, Docker, ReactJS

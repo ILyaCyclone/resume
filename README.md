@@ -11,55 +11,47 @@ Github: [https://github.com/ILyaCyclone](https://github.com/ILyaCyclone)
 
 # Навыки
 ## Java
-- Spring Boot, Spring Framework (MVC, JDBC, Security, LDAP)
+- Spring Boot, Spring Framework (MVC, JDBC, Data JPA, Data MongoDB, Security)
+- Java 8: streams, lambdas, date/time api
+- unit/integration testing: Selenium, JUnit, Mockito, AssertJ, Hamcrest
+- Servlets, JSP, Freemarker, Thymeleaf
 - Oracle Application Development Framework (Oracle ADF)
-- Servlets/JSP, Freemarker
-- SOAP/Rest Web services
-- Java 8 (streams, lambdas, time api)
-- основы microservices (Spring Cloud, Eureka, Config Server, Hystrix)
-- основы Hibernate, Spring Data JPA, Bean Validation
-- основы unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)
+- SOAP/REST web services
+- основы microservices: Spring Cloud, Eureka, Config Server, Hystrix
+- основы reactive stack: Spring WebFlux, Spring Data Reactive MongoDB
 
 ## Frontend (вторичные навыки)
-- npm, gulp, bower, основы webpack
+- Javascript, ReactJS, jQuery
+- npm, yarn, gulp, bower, основы webpack
 - Bootstrap, CSS, SASS (Scss)
-- Javascript, jQuery, Moment.js, vis.js, datatables, другие плагины
 - Handlebars, Nunjucks, адаптивная вёрстка (mobile first)
 
 ## Инструменты разработчика
-- Maven, Nexus OSS (установка, конфигурация)
+- Maven, Nexus OSS, основы Docker
 - Git, Git Flow
+- IntelliJ IDEA, VS Code, Oracle JDeveloper, Eclipse
 
-## Базы данных
-- Oracle, H2, PostgreSQL, MSSQL Server (использование)
-- SQL, PL/SQL
-- ERwin Data Modeler, Sybase PowerDesigner (CASE-средства)
-
-## Серверы приложений
-- Tomcat, WebLogic, Glassfish, другие (установка, базовое администрирование)
+## Серверы приложений и базы данных
+- Tomcat, WebLogic
+- Oracle DB, H2, MongoDB, PostgreSQL, MSSQL Server
+- SQL, PL/SQL, Hibernate
+- Liquibase, Mongock
 
 ## Другие инструменты
-- BIRT, iText, Apache POI (reporting)
-- Google Script (Google Spreadsheet scripts)
+- nginx, memcached
+- BIRT (reporting tool), Google Script (Google Spreadsheet scripts)
 - curl, Postman, Chrome Dev Tools
-- memcached, nginx
-
-## IDE
-- IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code
 
 ## Иностранные языки
 - Английский (на хорошем уровне)
-
-## Ближайшие интересы
-- Android, Jenkins, Docker, ReactJS
 
 # Опыт работы
 _2008 - настоящее время_  
 **Российский университет транспорта**  
 [https://rut-miit.ru](https://rut-miit.ru)  
 Ведение направления разработки и поддержки динамических web-приложений университета с использованием Spring Boot, Oracle Application Development Framework (Oracle ADF), Servlets/JSP, web services, frontend.
-- Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java и сопровождение frontend-части сайта университета https://rut-miit.ru (Spring Boot, frontend stack).
-- Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами.
+- Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java backend, REST API и сопровождение frontend сайта университета https://rut-miit.ru (Spring Boot, frontend stack).
+- Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами (Oracle ADF).
 - Разработка АСУ Федерального агентства железнодорожного транспорта (система сбора статистики и мониторинга отчётности вузов).
 - Разработка множества систем и приложений поддержания деятельности университета: система управления контентом сайта университета, метрика хода приёмной кампании, система проведения студенческих олимпиад, регистрация на сайте и подача документов через Интернет, интеграция отчётных инструментов, автоматизация RSS, Sitemap, web-сервисы взаимодействия с внешними системами.
 - Менторство, code-review junior-разработчиков и студентов.

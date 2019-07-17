@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run clean && npm run build",
     "clean": "node src/clean",
-    "build": "npm run build-nunjucks",
+    "build": "npm run build-js",
     "build-js": "node src/build-js",
     "build-handlebars": "node src/build-handlebars",
     "build-nunjucks": "node src/build-nunjucks",

@@ -33,12 +33,12 @@
                     {
                         "area": "Java",
                         "details": [
-                            "Spring Boot, Spring Framework (MVC, JDBC, Data, Security)",
+                            "Spring Boot, Spring Framework (MVC, JDBC, Data JPA, Data MongoDB, Security)",
+                            "Java 8: streams, lambdas, date/time api",
+                            "unit/integration testing: Selenium, JUnit, Mockito, AssertJ, Hamcrest",
+                            "Servlets, JSP, Freemarker, Thymeleaf",
                             "Oracle Application Development Framework (Oracle ADF)",
-                            "Servlets/JSP, Freemarker, Thymeleaf",
-                            "SOAP/Rest Web services",
-                            "Java 8: streams, lambdas, time api",
-                            "unit/integration testing: Selenium, JUnit, Hamcrest, AssertJ, Mockito",
+                            "SOAP/REST web services",
                             "основы microservices: Spring Cloud, Eureka, Config Server, Hystrix",
                             "основы reactive stack: Spring WebFlux, Spring Data Reactive MongoDB"
                         ]
@@ -47,7 +47,7 @@
                         "area": "Frontend (вторичные навыки)",
                         "details": [
                             "Javascript, ReactJS, jQuery",
-                            "npm, gulp, bower, основы webpack",
+                            "npm, yarn, gulp, bower, основы webpack",
                             "Bootstrap, CSS, SASS (Scss)",
                             "Handlebars, Nunjucks, адаптивная вёрстка (mobile first)"                    
                         ]
@@ -55,20 +55,18 @@
                     {
                         "area": "Инструменты разработчика",
                         "details": [
-                            "основные: IntelliJ IDEA, VS Code",
-                            "дополнительные: Oracle JDeveloper, Eclipse",
-                            "Maven, Nexus OSS",
-                            "Git, Git Flow"
+                            "Maven, Nexus OSS, основы Docker",
+                            "Git, Git Flow",
+                            "IntelliJ IDEA, VS Code, Oracle JDeveloper, Eclipse"
                         ]
                     },
                     {
                         "area": "Серверы приложений и базы данных",
                         "details": [
                             "Tomcat, WebLogic",
-                            "основные: Oracle DB, H2",
-                            "дополнительные: MongoDB, PostgreSQL, MSSQL Server",
-                            "Liquibase, Mongock",
-                            "SQL, PL/SQL"                 
+                            "Oracle DB, H2, MongoDB, PostgreSQL, MSSQL Server",
+                            "SQL, PL/SQL, Hibernate",
+                            "Liquibase, Mongock"             
                         ]
                     },
                     {
@@ -77,7 +75,6 @@
                             "nginx, memcached",
                             "BIRT (reporting tool), Google Script (Google Spreadsheet scripts)",
                             "curl, Postman, Chrome Dev Tools"
-                                           
                         ]
                     },
                     {
@@ -94,7 +91,7 @@
                         "url": "https://rut-miit.ru",
                         "description": "Ведение направления разработки и поддержки динамических web-приложений университета с использованием Spring Boot, Oracle Application Development Framework (Oracle ADF), Servlets/JSP, web services, frontend.",
                         "details": [
-                            "Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java и сопровождение frontend-части сайта университета https://rut-miit.ru (Spring Boot, frontend stack).",
+                            "Проектирование архитектуры, написание ТЗ, участие в UX/UI, разработка Java backend, REST API и сопровождение frontend сайта университета https://rut-miit.ru (Spring Boot, frontend stack).",
                             "Разработка личного кабинета сотрудника и студента: более 20 модулей, интеграция с бухгалтерской и отчётной системами (Oracle ADF).",
                             "Разработка АСУ Федерального агентства железнодорожного транспорта (система сбора статистики и мониторинга отчётности вузов).",
                             "Разработка множества систем и приложений поддержания деятельности университета: система управления контентом сайта университета, метрика хода приёмной кампании, система проведения студенческих олимпиад, регистрация на сайте и подача документов через Интернет, интеграция отчётных инструментов, автоматизация RSS, Sitemap, web-сервисы взаимодействия с внешними системами.",
@@ -172,71 +169,54 @@
                     {
                         "area": "Java",
                         "details": [
-                            "Spring Boot, Spring Framework (MVC, JDBC, Security, LDAP)",
+                            "Spring Boot, Spring Framework (MVC, JDBC, Data JPA, Data MongoDB, Security)",
+                            "Java 8: streams, lambdas, date/time api",
+                            "unit/integration testing: Selenium, JUnit, Mockito, AssertJ, Hamcrest",
+                            "Servlets, JSP, Freemarker, Thymeleaf",
                             "Oracle Application Development Framework (Oracle ADF)",
-                            "Servlets/JSP, Freemarker",
-                            "SOAP/Rest Web services",
-                            "Java 8 (streams, lambdas, time api)",
-                            "basics of microservices (Spring Cloud, Eureka, Config Server, Hystrix)",
-                            "basics of Hibernate, Spring Data JPA, Bean Validation",
-                            "basics of unit/integration testing (JUnit, Hamcrest, AssertJ, Mockito, MockMVC)"                    
+                            "SOAP/REST web services",
+                            "basics of microservices: Spring Cloud, Eureka, Config Server, Hystrix",
+                            "basics of reactive stack: Spring WebFlux, Spring Data Reactive MongoDB"
                         ]
                     },
                     {
-                        "area": "Frontend (secondary skills)",
+                        "area": "Frontend",
                         "details": [
-                            "npm, gulp, bower, basics of webpack",
+                            "Javascript, ReactJS, jQuery",
+                            "npm, yarn, gulp, bower, basics of webpack",
                             "Bootstrap, CSS, SASS (Scss)",
-                            "Javascript, jQuery, Moment.js, vis.js, datatables etc",
                             "Handlebars, Nunjucks, adaptive design (mobile first)"                    
                         ]
                     },
                     {
                         "area": "Developer tools",
                         "details": [
-                            "Maven, Nexus OSS (installation, configuration)",
-                            "Git, Git Flow"                  
+                            "Maven, Nexus OSS, basics of Docker",
+                            "Git, Git Flow",
+                            "IntelliJ IDEA, VS Code, Oracle JDeveloper, Eclipse"                 
                         ]
                     },
                     {
-                        "area": "Databases",
+                        "area": "Application servers and databases",
                         "details": [
-                            "Oracle, H2, PostgreSQL, MSSQL Server (usage)",
+                            "Tomcat, WebLogic",
+                            "Oracle DB, H2, MongoDB, PostgreSQL, MSSQL Server",
                             "SQL, PL/SQL",
-                            "ERwin Data Modeler, Sybase PowerDesigner (CASE)"
-                        ]
-                    },
-                    {
-                        "area": "Application servers",
-                        "details": [
-                            "Tomcat, WebLogic, Glassfish etc (installation, basic administration)"
+                            "Liquibase, Mongock"  
                         ]
                     },
                     {
                         "area": "Other tools",
                         "details": [
-                            "BIRT, iText, Apache POI (reporting)",
-                            "Google Script (Google Spreadsheet scripts)",
-                            "curl, Postman, Chrome Dev Tools",
-                            "memcached, nginx"                    
-                        ]
-                    },
-                    {
-                        "area": "IDE",
-                        "details": [
-                            "IntelliJ IDEA, Eclipse, Oracle JDeveloper, VS Code"                    
+                            "nginx, memcached",
+                            "BIRT (reporting tool), Google Script (Google Spreadsheet scripts)",
+                            "curl, Postman, Chrome Dev Tools"                  
                         ]
                     },
                     {
                         "area": "Languages",
                         "details": [
                             "Russian, English"                    
-                        ]
-                    },
-                    {
-                        "area": "Pending",
-                        "details": [
-                            "Android, Jenkins, Docker, ReactJS"                    
                         ]
                     }
                 ]
